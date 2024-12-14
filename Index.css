@@ -1,0 +1,149 @@
+body{
+    font-family: Arial,  sans-serif;
+    background-color:#f7f7f7 ;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+header{
+    margin-bottom: 20px;
+    color: #ffa07a;
+}
+.form-container{
+    background-color: #ffa07a;
+    padding: 20px;
+    border-radius: 8px;
+    display: inline-block;
+    text-align: left;
+}
+.form-container p{
+    text-align: center;
+    color: whitesmoke;
+}
+.radio{
+    text-align: center;
+    color: white;
+}
+.form-container div{
+    text-align: center;
+    background-color: white;
+    color:black;
+    padding: 20px;
+    margin: 15px;
+    width: 90%;
+    border-radius:8px ;
+    color: #ffa07a;
+    
+}
+.form-container input[type="text"]{
+width: 70%;
+padding: 10px;
+margin: 10px 0;
+border-radius: 4px;
+border: 1px solid #ccc;
+}
+.form-container button{
+    background-color:white;
+    color: #ffa07a;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.form-container button:hover{
+    background-color: #e5533c;
+}
+footer{
+    margin-top: 20px;
+    font-size: 0.8em;
+    color: #666;
+    background-color: #ffa07a;
+    padding: 20px;
+    border-radius: 8px;
+}
+ section .partager {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+}
+
+
+
+/* Centrer la popup au milieu de l'écran */
+.popupBackground {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10; /* Toujours au-dessus */
+  }
+  
+  /* Styles de la popup */
+  .popup {
+    background-color: #ff6f61; /* Couleur principale */
+    color: white; /* Texte en blanc */
+    padding: 20px 30px;
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Ombre */
+    text-align: center;
+    width: 300px; /* Largeur fixe */
+  }
+  
+  /* Titre de la popup */
+  .popup > div {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  /* Formulaire dans la popup */
+  .popup form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  /* Labels des champs */
+  .popup label {
+    margin-bottom: 5px;
+    text-align: left;
+    font-size: 0.9em;
+  }
+  
+  /* Champs de texte */
+  .popup input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    width: 100%;
+  }
+  
+  /* Bouton d'envoi */
+  .popup button {
+    padding: 10px;
+    background-color: white;
+    color: #ff6f61;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+  }
+  
+  .popup button:hover {
+    background-color: #ffc3bc; /* Couleur au survol */
+  }
+  .hidden{
+    display: none;
+  }
+  .popupBackground.active{
+    display: flex;
+  }

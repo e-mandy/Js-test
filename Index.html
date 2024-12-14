@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AzerType</title>
+    <link rel="stylesheet" href="Index.css">
+    <script src="Scripts/config.js" defer></script>
+    <script src="Scripts/scriptmini.js" defer></script>
+    <script src="Scripts/Script.js" defer></script>
+    <script src="Scripts/main.js" defer></script>
+   
+</head>
+<body>
+    <header>
+        <div>
+            <h1> AzerType</h1>
+            <h2>L'application pour écrire plus vite !</h2>
+            <p>Azer type est une application en ligne pour apprendre à taper plus vite au clavier :)</p>
+        </div>
+        
+       
+        
+    </header>
+    <section class="form-container">
+        <p>Choisissez  votre option et tapez la proposition qui saffiche dans le champ en dessous.</p>
+        <form >
+            <section class="radio">
+                <input type="radio" id="choix" name="change" value="Mots" checked>
+                <label for="">Mots</label>
+                <input type="radio" id="choix" name="change" value="Phrases" >
+                <label for="">Phrases</label>
+            </section>
+
+            <div class="zoneProposition">
+                Azerty
+            </div>
+    
+    
+            <div class="zoneSaisie">
+                <input type="text" id="inputEcriture" nom="inputEcriture">
+                <button type="submit" id="btnValiderMot"><strong>Valider</strong></button>
+            </div>
+            
+           <div class="zoneScore">Votre score: 0/0</div>
+            <div class="zonePartage">
+                <button class="btnPartage" >Partager</button>
+            </div>
+            
+        </form>
+        
+    </section>
+        
+    <footer>
+        @Copyright : Openclassrooms.
+    </footer>
+    <div class="popupBackground hidden" id="popBackground">
+        <div class="popup">
+            <div>Partagez votre score</div>
+            <form>
+                <label for="nom">Votre nom</label>
+                <input type="text" name="nom" placeholder="Votre nom">
+                <label for="email">Avec qui voulez-vous partager votre score ?</label>
+                <input type="email" name="email" placeholder="nom@domaine.com">
+                <button id="btnEnvoyerMail">Envoyer</button>
+            </form>
+        </div>
+    
+</body>
+</html>
