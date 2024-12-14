@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <script src="popup.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>AZERTY TYPE</h1>
+        <h2 class="desc">L'application pour écrire plus vite</h2>
+        <p class="descript">Apprenons à taper plus vite au clavier</p>
+    </div>
+    <div class="case">
+        <p class="pa">Choississez votre option et tapez la proposition qui s'affiche dans le champ en-dessous</p>
+        <div class="ama">
+            <label>
+                <p> <input type="radio" name="nom" value="1" checked>Mots</p>
+             </label>
+             <label>
+                 <p><input type="radio" name="nom" value="2" checked>Phrases</p>
+                 
+             </label>
+        </div>
+        
+        <div class="containerr">
+            <h2 class="ap">Cachalot</h2>
+        </div>
+        <div class="choix">
+            <input type="text" id="type-text" placeholder="Tapez ici">
+            <button id="but">Valider</button>
+        </div>
+        <p id="score">Votre score est:0</p>
+        <button id="partage" class="zone">Partager</button>
+    </div>
+    <footer>Copyright:Openclassroom</footer>
+    <!--- formulaire pour la seconde page-->
+    
+
+    <div id="background" class="container1 hidden" >
+        <div class="popup">
+            <div class="pop">Partagez votre score</div><br>
+            <form >
+                <label for="nom">Votre nom:</label><br><br>
+                <input type="text" id="nom" name="nom" placeholder="Votre nom"><br><br>
+                <label for="email">Avec qui voulez-vous partager votre score?</label><br><br>
+                <input type="email" id="email" name="email" placeholder="name@domaine.com"><br><br>
+                <button id="Envoyermail">Envoyer</button>
+            </form>
+        </div>
+       
+    </div>
+    
+</body>
+</html>

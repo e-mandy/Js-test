@@ -1,0 +1,197 @@
+body{
+    text-align: center;
+    justify-content: center;
+    height: 200px;
+    background-color: whitesmoke;
+}
+.container{
+    
+    color:black ;
+    align-items: first baseline;
+}
+.case{
+    background-color:#d972ff;
+    border-radius:  50px;
+    padding: 40px;
+    margin: 470px;
+    margin-top: 35px;
+    opacity: 0.9;
+    
+    
+}
+p{
+    color: white;
+}
+.descript{
+    color:black;
+}
+.ama{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 28px;
+
+}
+.containerr{
+    background-color: white;
+    border-radius: 30px;
+    padding: 5px;
+    margin: 25px;
+    
+    
+}
+.ap{
+    color: brown;
+    
+}
+#but{
+    color: brown;
+    background-color: white;
+    border-radius: 12px;
+    width: 100px;
+    height: 33px;
+    padding: 5px ;
+    font-style: oblique;
+    cursor: pointer;
+}
+#type-text{
+    background-color: white;
+    border-radius: 12px;
+    width: 310px;
+    height: 30px;
+    padding: 4px;
+    font-style: oblique;
+    margin-bottom: 20px;
+}
+.choix{
+    gap:120px ;
+}
+.partage{
+    background-color: aliceblue;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 170px;
+    
+}
+.part{
+    color: brown;
+    font-size: 20px;
+}
+button{
+    padding:10px 20px;
+    font-size: 13px;
+    background-color: white;
+    color: brown;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;  
+}
+button:hover{
+    background-color: #d972ff;
+
+
+}
+
+ .container1{
+    margin: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+ }  
+ form{
+    width: 300px;
+    margin: auto;
+
+ }
+ input [type="email"]{
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+ }
+#background{
+  background-color: #d972ff;
+  margin: 600px;
+  padding: 10px;
+  margin-top: 230px;
+  border-radius: 20px;
+}
+form input{
+    color: brown;
+    width: 270px;
+    padding: 5px;
+    border-radius: 15px;
+}
+form label{
+    color: white;
+}
+.pop{
+    color: brown;
+    font-size: 33px;
+    font-style: italic;
+}
+footer{
+    background-color: #d972ff;
+    margin-top: -454px;
+    border-radius: 12px;
+    padding: 20px;
+}
+/* Cacher le pop-up par défaut */
+#background.hidden {
+    display: none;  
+}
+
+/* Afficher le pop-up lorsque la classe 'active' est ajoutée */
+#background.active {
+    display: block; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1000; /* Assure que le pop-up est au-dessus des autres éléments */
+}
+
+
+.popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centrer le pop-up à l'écran */
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1001; /* Le pop-up doit être devant le fond */
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+input, button {
+    margin-bottom: 10px;
+}
+
+
+#Envoyermail {
+    background-color: #4CAF50; 
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+#Envoyermail:hover {
+    background-color: #45a049;
+}
+
+
+
+
