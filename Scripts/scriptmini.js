@@ -14,7 +14,7 @@ function initAddEventListenerPopup() {
     btnPartage = document.querySelector(".zonePartage button")
     let popupBackground = document.querySelector(".popupBackground")
     btnPartage.addEventListener("click", () => {
-        // Quand on a cliqué sur le bouton partagé, on affiche la popup
+        event.preventDefault();
         afficherPopup()
     })
     // On écoute le click sur la div "popupBackground"
